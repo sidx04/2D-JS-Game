@@ -19,11 +19,11 @@ function determineWinner({player,enemy,timerId}){
         document.querySelector('#messagebox').innerHTML='Tie'
     }
     else if(player.health>enemy.health){            
-        document.querySelector('#messagebox').innerHTML='Player Wins!'
+        document.querySelector('#messagebox').innerHTML='Kenji Wins!'
     }
 
     if(player.health<enemy.health){            
-        document.querySelector('#messagebox').innerHTML='Enemy Wins!'
+        document.querySelector('#messagebox').innerHTML='Mack Wins!'
     }
 
 }
