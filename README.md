@@ -12,3 +12,4 @@ A 2D simplistic fighting sandbox game made with Javascript.
 
 ## Upcoming!
 New skins and levels coming soon!
+
