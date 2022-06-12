@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.canvas{
+    position:relative;
+    display:inline-block
+}
+
+
+.container{
+    position: absolute; display:flex; width:100%; align-items: center;
+    padding: 1.2em;
+}
+
+.messagebox{
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    color: blanchedalmond;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black;
+    font-size: 4rem;
+    display:none;
+}
+
+
+/* timerrr */
+.timer{
+    background-color: rgb(29, 35, 39);
+    height: 55px;
+    width: 90px;
+    flex-shrink: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    color: antiquewhite;
+    border:3px solid rgb(219, 179, 201);
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+/* player health stuff */
+
+.playerhealth{
+    position: relative;
+    width: 100% ; 
+    display: flex;
+    justify-content: flex-end;
+    border-top:4px solid rgb(62, 58, 56);    
+    border-bottom:4px solid rgb(62, 58, 56);    
+    border-left:4px solid rgb(62, 58, 56);
+    border-radius: 3px;
+
+}
+
+.playerhealth .fullhealth{
+    position: absolute;
+    background:#818cf8;
+    top:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.playerhealth div{
+    background-color: red;
+    height: 35px;
+    width: 100%;
+
+}
+
+
+/* enemy health stuff */
+
+.enemyhealth{
+    position: relative;
+    width: 100% ;
+    border-top:4px solid rgb(62, 58, 56);
+    border-right:4px solid rgb(62, 58, 56);
+    border-bottom:4px solid rgb(62, 58, 56);
+
+}
+
+.enemyhealth .fullhealth{
+    position: absolute;
+    background:#818cf8;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.enemyhealth div{
+    background-color: red;
+    height: 35px;
+}
+
+
+
+
+
+
+

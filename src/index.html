@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/index.css">
+</head>
+<body>
+    <div class="canvas">
+        <div class="container">
+            <!-- Player health -->
+            <div class="playerhealth">
+                <div>
+                    <div class="fullhealth" id="playerhealth"></div>
+
+                </div>
+            </div>
+
+            <!-- Timer -->
+            <div class="timer" id="timer">
+                10
+            </div>
+
+            <!-- Enemy health -->
+            <div class="enemyhealth">
+                <div>
+                    <div class="fullhealth" id="enemyhealth"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="messagebox" id="messagebox">
+            
+        </div>
+
+        <canvas></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/utils.js"></script>    
+    <script src="/js/classes.js"></script>
+    <script src="/src/index.js"></script>
+
+    </div>
+</body>
+</html>
